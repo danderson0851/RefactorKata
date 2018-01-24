@@ -20,7 +20,7 @@ namespace RefactorKata
                 //TODO: Replace with Dapper once Dapper is taught
                 while (reader.Read())
                 {
-                    var prod = new Product {Name = reader["Name"].ToString()};
+                    var prod = new Product { Name = reader["Name"].ToString() };
                     
                     products.Add(prod);
                 }
